@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #4e4039;
+  background: #F0FFEF;
   transition: 0.4s;
 }
 
@@ -229,14 +229,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #f9d1c0;
+  color: #010F00;
   padding: 10px 20px;
   font-weight: 500;
   transition: 0.3s;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #f39e7a;
+  color: #11FF00;
   text-decoration: none;
 }
 
@@ -569,7 +569,9 @@ section {
     max-width: 90%;
   }
 }
-
+.services{
+	background:#DCFCDA;
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -889,7 +891,7 @@ section {
   padding: 0 0 30px 0;
   color: #212529;
   font-size: 14px;
-  background: #fef8f5;
+  background:;
 }
 
 #footer .footer-newsletter {
@@ -1022,7 +1024,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #eb5d1e;
+  background: #14F307;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1045,6 +1047,7 @@ section {
 #footer .copyright {
   text-align: center;
   
+  
 }
 
 #footer .credits {
@@ -1057,6 +1060,7 @@ section {
 #footer .credits a {
   color: #eb5d1e;
 }
+
 
 @media (max-width: 575px) {
   #footer .copyright, #footer .credits {
